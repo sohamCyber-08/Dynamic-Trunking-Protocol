@@ -12,7 +12,11 @@ The lab also demonstrates **802.1Q trunking**, VLAN 10 propagation, and end-to-e
 PC6 ─── SW1 ═══ SW2 ═══ SW3 ═══ SW4 ═══ SW5 ─── PC7
         Trunk   DTP     DTP     DTP     DTP
 ```
-
+<br>
+<br>
+<img width="1837" height="670" alt="Screenshot 2026-09-24 205623" src="https://github.com/user-attachments/assets/ca73a594-597d-416c-906e-adac719ccb10" />
+<br>
+<br>
 ### DTP Interface Configuration
 
 | Switch | Interface | DTP Mode  | Result         |
