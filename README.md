@@ -63,6 +63,12 @@ interface gi0/1
  switchport mode access
  switchport access vlan 10
 ```
+<br>
+<br>
+<img width="1821" height="847" alt="Screenshot 2026-09-24 204810" src="https://github.com/user-attachments/assets/cebb31e8-5cb2-406c-81e8-45aba7212b3a" />
+
+<br>
+<br>
 
 ### SW2 — Auto and Desirable
 
@@ -73,6 +79,11 @@ interface gi0/0
 interface gi0/1
  switchport mode dynamic desirable
 ```
+<br>
+<br>
+<img width="786" height="502" alt="Screenshot 2026-09-24 204925" src="https://github.com/user-attachments/assets/73604522-3cd6-40f0-8acb-b7546cb17b04" />
+<br>
+<br>
 
 ### SW3 — Auto and Desirable
 
@@ -83,6 +94,12 @@ interface gi0/0
 interface gi0/1
  switchport mode dynamic desirable
 ```
+<br>
+<br>
+<img width="810" height="510" alt="Screenshot 2026-09-24 205016" src="https://github.com/user-attachments/assets/7a974d51-ac64-4d7a-b43a-7d7dd73fed02" />
+
+<br>
+<br>
 
 ### SW4 — Desirable and Desirable
 
@@ -93,7 +110,12 @@ interface gi0/0
 interface gi0/1
  switchport mode dynamic desirable
 ```
+<br>
+<br>
+<img width="1567" height="442" alt="Screenshot 2026-09-24 205108" src="https://github.com/user-attachments/assets/f6899e68-1865-4f0b-be35-f97d7371fe1f" />
 
+<br>
+<br>
 ### SW5 — Auto
 
 ```cisco
@@ -108,6 +130,12 @@ interface gi0/1
  switchport mode access
  switchport access vlan 10
 ```
+<br>
+<br>
+<img width="1871" height="863" alt="Screenshot 2026-09-24 205235" src="https://github.com/user-attachments/assets/5020d776-4299-4803-9d66-a3f7d46aea43" />
+
+<br>
+<br>
 
 ## 🔄 DTP Negotiation
 
@@ -172,29 +200,6 @@ The inter-switch links operate as **802.1Q trunk links**, allowing VLAN 10 traff
 
 ## 🔍 Verification
 
-### Verify DTP Status
-
-```cisco
-show dtp interface
-```
-
-### Verify Trunk Status
-
-```cisco
-show interfaces trunk
-```
-
-### Verify VLAN
-
-```cisco
-show vlan brief
-```
-
-### Verify MAC Address Learning
-
-```cisco
-show mac address-table
-```
 
 ### Verify Connectivity
 
@@ -205,6 +210,11 @@ ping 192.168.10.2
 ```
 
 PC6 should successfully communicate with PC7.
+<br>
+<br>
+<img width="772" height="500" alt="Screenshot 2026-09-24 205349" src="https://github.com/user-attachments/assets/004bf7bb-5d51-40fb-b1a1-fdccadb94d32" />
+<br>
+<br>
 
 ## 📊 Communication Process
 
